@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif; /* or any font family you choose */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    background-color: #121212; /* Default background color */
+  }
+  
+  @media (max-width: 768px) {
+    .text-lg {
+      font-size: 1.125rem; /* Smaller font size on mobile */
+    }
+    .text-xl {
+      font-size: 1.25rem; /* Smaller font size on mobile */
+    }
+  }
+  
