@@ -20,7 +20,7 @@ const Gallery = () => {
   };
   const handleClick2 = () => {
     window.open(
-      "",
+      "https://abhi-pawar-17.github.io/zom-clone/",
       "_blank",
       "noopener,noreferrer"
     );
