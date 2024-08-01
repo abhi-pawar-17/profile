@@ -1,23 +1,9 @@
 import React from "react";
-import profileImage from "../assets/background.jpg"; // Adjust the path as needed
 import profileImage1 from "../assets/126746.jpg"; // Adjust the path as needed
-import profileImage2 from "../assets/download.jpg"; // Adjust the path as needed
+
 
 const Gallery = () => {
-  const handleClick = () => {
-    window.open(
-      "",
-      "_blank",
-      "noopener,noreferrer"
-    );
-  };
-  const handleClick1 = () => {
-    window.open(
-      "",
-      "_blank",
-      "noopener,noreferrer"
-    );
-  };
+
   const handleClick2 = () => {
     window.open(
       "https://abhi-pawar-17.github.io/zom-clone/",
@@ -33,20 +19,9 @@ const Gallery = () => {
           Project Gallery
         </h1>
         <div className="flex flex-wrap justify-center gap-8">
-          <ProjectCard
-            imageSrc={profileImage}
-            title="Project Webpage"
-            description="This is my simple static webpage."
-            onClick={handleClick}
-          />
+       
           <ProjectCard
             imageSrc={profileImage1}
-            title="React TextUtils Tool"
-            description="This is my simple static TOOL."
-            onClick={handleClick1}
-          />
-          <ProjectCard
-            imageSrc={profileImage2}
             title="Zomato Clone "
             description="This is my static zomato Clone."
             onClick={handleClick2}
