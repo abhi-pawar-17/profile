@@ -32,7 +32,7 @@ const Home = () => {
 
   const openDriveFile = () => {
     window.open(
-      "https://drive.google.com/file/d/17ztOJr7OWkojgP5ZJrajBDYG6hJ0hKsd/view?usp=sharing",
+      "https://drive.google.com/file/d/17ztOJr7OWkojgP5ZJrajBDYG6hJ0hKsd/view?usp=drive_link",
       "_blank"
     );
   };
